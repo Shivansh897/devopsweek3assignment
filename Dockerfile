@@ -5,4 +5,4 @@ EXPOSE 9096
 
 ADD target/devops.jar devops.jar
 
-ENTRYPOINT [ "java","-jar","/devops" ]
+ENTRYPOINT [ "java","-jar","devops" ]
