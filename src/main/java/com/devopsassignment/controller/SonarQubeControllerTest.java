@@ -8,4 +8,8 @@ public class SonarQubeControllerTest {
 	    public String test() {
 	        return "Testing successfull!!";
 	    }
+        @GetMapping("/test")
+	    public String test() {
+	        return "Testing successfull!!";
+	    }
 }
